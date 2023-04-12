@@ -1,5 +1,5 @@
 # N-Queens
-My solution to the n-queens optimization problem
+My solution to the n-queens optimization problem.
 
 ## Solution description
 Solved the N-Queens constraint-satisfaction problem using a Local Search method.
