@@ -15,4 +15,4 @@ I managed to solve the n-queens problem with a board of size n=30, higher board 
 The run time complexity of the hill-climbing technique is NP-complete such that its neither complete nor optimal but with random-restart, it depends on the number of restarts. So, with random-restart the time-complexity will be at worst O(n) - going through all the local peaks and at best it can be O(log n).
 
 ## How I overcame local optimas
-Most of my solutions hit a local optimum as can be show in my code where I print the number of local mins hit. To solve this, as stated before I use random-restart and generate a new random board state and run the algorithm again from this new state. I do this repeatedly until a board state with zero number of collisions is found.
+Most of my solutions hit a local optimum as can be shown in my code where I print the number of local mins hit. To solve this, as stated before I use random-restart and generate a new random board state and run the algorithm again from this new state. I do this repeatedly until a board state with zero number of collisions is found.
