@@ -1,8 +1,6 @@
 import numpy as np
 import copy
 
-# Noah Finestone
-
 class n_queens: 
 
     def __init__(self, n):
