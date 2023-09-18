@@ -40,7 +40,6 @@ class n_queens:
 
         while True:
             board = best
-            # generate all neighboring states
             neighborStates = self.getNeighborStates(board)
             
             for state in neighborStates:
