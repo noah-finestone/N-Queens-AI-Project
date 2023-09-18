@@ -4,7 +4,6 @@ import copy
 class n_queens: 
 
     def __init__(self, n):
-        # generate a random board state as the starting state
         self.state = np.random.randint(0, n, size=n)
 
     # returns all neighboring states - neighboring states are other state's
